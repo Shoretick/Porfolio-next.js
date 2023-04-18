@@ -40,7 +40,7 @@ const NavBar= () =>{
             </motion.a>
 
             <motion.a className="w-6 mx-3" href="https://www.linkedin.com/in/jesus-emmanuel-castro/" target={"_blank"} 
-            whileHover={{y:-2}}><LinkedInIcon/>
+            whileHover={{y:-2}}whileTap={{scale:0.9}}><LinkedInIcon/>
             </motion.a>
 
             <motion.a className="w-6 mx-3"
