@@ -5,6 +5,9 @@ import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/developer-pic-3.jpeg" 
 import { useInView, useMotionValue, useSpring } from "framer-motion";
+import Skills from "@/components/Skills";
+import Experience from "@/components/Experience";
+import Education from "@/components/Education";
 
 
 
@@ -96,6 +99,9 @@ every project I work on. I look forward to the opportunity to bring my skills an
 
                      </div>
                 </div>
+                <Skills/>
+                <Experience/>
+                <Education/>
                 </Layout>
             </main>
         
