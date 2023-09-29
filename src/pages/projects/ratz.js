@@ -3,11 +3,11 @@ import React from "react";
 import Image from "next/image";
 import img1 from "../../../public/images/projects/ratZmenu.gif";
 import AnimatedText from "@/components/AnimatedText";
-import CardImg from "@/components/Cardimg";
+
 import rat1 from "../../../public/images/projects/RatZ1.png";
 import rat2 from "../../../public/images/projects/RatZ2.png";
 import rat3 from "../../../public/images/projects/RatZ3.png";
-import rat4 from "../../../public/images/projects/RatZ4.png";
+
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 
@@ -27,7 +27,7 @@ const RatZ = () =>{
             <div className=" grid grid-cols-12 gap-2 items-center justify-center gap-y-4 ">
                 
             <div className="col-span-6 ">
-                <h2 className=" text-xl text-purple-950 font-bold">VideoGame Beat 'Em Up o «yo contra el barrio» </h2>
+                <h2 className=" text-xl text-purple-950 font-bold">VideoGame Beat Em Up o «yo contra el barrio» </h2>
                 <AnimatedText  text="RAT" className="text-8xl text-rose-950 "></AnimatedText>
         <AnimatedText  text="VS" className="  text-8xl text-rose-950 items-start justify-start grid-flow-col"></AnimatedText>
         <AnimatedText  text="ZOMBIE...!" className="  text-8xl text-rose-950"></AnimatedText>
@@ -68,7 +68,7 @@ const RatZ = () =>{
           </div>
           <div className="col-span-6 items-center justify-center flex font-semibold p-1 m-2">
            
-            <p> Se trata de una videojuego de genero yo contra el barrio​​ (en inglés Beat 'em up, Brawler o Belt scroller),
+            <p> Se trata de una videojuego de genero yo contra el barrio​​ (en inglés Beat em up, Brawler o Belt scroller),
                 ofrece combate cuerpo a cuerpo entre el protagonista y un número improbable de oponentes.
                 Tiene lugar en entornos urbanos y presentan tramas basadas en la lucha contra Zombies.
                  </p>
