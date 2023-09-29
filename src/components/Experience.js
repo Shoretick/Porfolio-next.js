@@ -15,7 +15,7 @@ return(
     transition={{duration:0.5,type:spring}}
     viewport={{once: true}} 
     >
-        <h3 className=" capitalize font-bold text-2xl">{position}&nbsp; <a href={companyLink} target="blank" className=" text-purple-500">{company}</a> </h3>
+        <h3 className=" capitalize font-bold text-2xl">{position}&nbsp; <a  target="blank" className=" text-purple-500">{company}</a> </h3>
         <span className=" capitalize font-medium text-dark/75">{time} | {address}</span>
         <p className=" font-medium w-full">{work}</p>
     </motion.div>
@@ -37,7 +37,7 @@ const Experience = () =>{
     return (
         <div className="my-64">
             <h2 className=" font-bold mb-32 text-8xl w-full text-center">
-            Experience
+            Experiencia
             </h2>
 
             <div ref={ref} className="w-[75%] mx-auto relative">
@@ -47,45 +47,36 @@ const Experience = () =>{
 
                 <ul className=" w-full flex flex-col items-start justify-between ml-4 ">
                     <Details
-                    position="software Engineer" company="Google"
+                    position="software Engineer Freelance" company="Award Technology"
                     companyLink="www.google.com.ar"
-                    time = "2022-Present" address="Montain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    time = "2023-Presente" address="Buenos Aires, Argentina.  "
+                    work="Generar documentación e integrar pasarela de pagos con lectura de QR en Apps propias de la empresa."
                     />
                     <Details
-                    position="software Engineer" company="Google"
+                    position="back-end Developer Freelance" company="Freelance "
                     companyLink="www.google.com.ar"
-                    time = "2022-Present" address="Montain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    time = "2023-Presente" address="Latam"
+                    work="Realizar mantenimiento correctivo y preventivo en sitios diferentes sitios webs.
+                    Back-end : .Node, express, mongoDb.
+                    Base de datos: PostgreSQL y Sequelize."
                     />
                     <Details
-                    position="software Engineer" company="Google"
+                    position="Full Stack Developer" company="Freelance"
                     companyLink="www.google.com.ar"
-                    time = "2022-Present" address="Montain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    time = "2022-Presente" address="Latam"
+                    work="Desarrollar landing Pages y aplicaciones online utilizando HTML, CSS, React, Node, Express ●
+                    Diseñar interfaces y elementos frontend, mantener y optimizar sitios web e interfaces.
+                    ● Incrementar en 20% el tráfico web a través de la mejora de la navegación del sitio web. "
                     />
                     <Details
-                    position="software Engineer" company="Google"
+                    position="QA /QC" company="Invap"
                     companyLink="www.google.com.ar"
-                    time = "2022-Present" address="Montain View, CA"
+                    time = "2012-2018" address="Buenos Aires, Argentina. "
                     work="Worked on a team responsible for developing new features for Google's 
                     search engine, including improving the accuracy and relevance of search results and 
                     developing new tools for data analysis and visualization."
                     />
-                    <Details
-                    position="software Engineer" company="Google"
-                    companyLink="https://www.google.com.ar"
-                    time = "2022-Present" address="Montain View, CA"
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
-                    />
+                    
                 </ul>
             </div>
         </div>

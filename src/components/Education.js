@@ -7,7 +7,7 @@ import LiIcon from "./LiIcon";
 const Details = ({type,time,place,info}) => {
     const ref= useRef(null)
 return(
-    <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between">
+    <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-start justify-between">
         <LiIcon reference={ref}/>
     <motion.div
     initial={{y:50}}
@@ -37,7 +37,7 @@ const Education = () =>{
     return (
         <div className="my-64">
             <h2 className=" font-bold mb-32 text-8xl w-full text-center">
-            Education
+            Educación
             </h2>
 
             <div ref={ref} className="w-[75%] mx-auto relative">
@@ -47,33 +47,42 @@ const Education = () =>{
 
                 <ul className=" w-full flex flex-col items-start justify-between ml-4 ">
                     <Details
-                    type="Bachelor Of Science In Computer Science" 
-                    time = "2016-2020" place="Massachusetts Institute Of Technology (MIT)"
+                    type="Full Stack Web Developer" 
+                    time = "2022" place="Henry"
                    info="
-                   Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                   Intelligence."
+                   Bootcamp. 800 horas de cursado teórico-práctico. "
                     />
+
                     <Details
-                    type="Bachelor Of Science In Computer Science" 
-                    time = "2016-2020" place="Massachusetts Institute Of Technology (MIT)"
+                    type=" Desarrollo de Videojuegos" 
+                    time = "2020" place="Universidad Tecnológica Nacional FRR."
                    info="
-                   Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                   Intelligence."
+                   Diseñar y desarrollar Apps interactivas : modelado 3D, programación de objetos, mecánicas, diseño de
+                   niveles.
+                   Tecnologias : Unity, blender, makeHuman, C#, entre otras."
                     />
+
                     <Details
-                    type="Bachelor Of Science In Computer Science" 
-                    time = "2016-2020" place="Massachusetts Institute Of Technology (MIT)"
+                    type="cursos UTN de  .NET | MYSQL" 
+                    time = "2020" place="Universidad Tecnológica Nacional FRR."
                    info="
-                   Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                   Intelligence."
+                   curso"
                     />
+
                     <Details
-                    type="Bachelor Of Science In Computer Science" 
-                    time = "2016-2020" place="Massachusetts Institute Of Technology (MIT)"
+                    type="Licenciatura en Informática      " 
+                    time = "2019-Presente" place="Universidad UNO"
                    info="
-                   Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-                   Intelligence."
+                   Licenciatura en informatica"
                     />
+
+                    <Details
+                    type="Montajes Electromecánica" 
+                    time = "2000-2005" place="EET Nro2"
+                   info="
+                   Técnico Electromecánico "
+                    />
+                    
                    
                 </ul>
             </div>
