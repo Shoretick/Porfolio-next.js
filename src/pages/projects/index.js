@@ -126,7 +126,7 @@ const Projects= () => {
                 summary="Rat vs Z es un videoGame desarrollado en C# Unity con modelos en 3d realizados en blender. "
                 type="Proyecto destacado"
                 link="/projects/ratz"
-                github="/"
+                github="https://github.com/Shoretick/RatVsZ"
                 />
             </div>
             
