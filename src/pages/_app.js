@@ -1,14 +1,16 @@
 import '@/styles/globals.css';
-import { Montserrat } from 'next/font/google';
+import { Arimo } from 'next/font/google';
 import Head from 'next/head';
 import NavBar from '../components/NavBar';
 import Footer from '@/components/Footer';
 
 
 
-const montserrat = Montserrat({
+const montserrat = Arimo({
   subsets:['latin'],
-  variable:'--font-mont'
+  variable:'--font-mont',
+  display: 'swap',
+  
 })
 
 export default function App({ Component, pageProps }) {
@@ -20,7 +22,7 @@ export default function App({ Component, pageProps }) {
    <link rel="icon" href="/favicon.ico" />
   </Head>
   <main className= { `${montserrat.variable} font-mont bg-light w-full min-h-screen`}> 
-  <NavBar className=" "></NavBar>
+  <NavBar className=""></NavBar>
     <Component {...pageProps} />
     <Footer></Footer>
    
