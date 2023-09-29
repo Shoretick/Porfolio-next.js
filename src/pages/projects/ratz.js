@@ -30,7 +30,7 @@ const RatZ = () =>{
                 <h2 className=" text-xl text-purple-950 font-bold">VideoGame Beat Em Up o «yo contra el barrio» </h2>
                 <AnimatedText  text="RAT" className="text-8xl text-rose-950 "></AnimatedText>
         <AnimatedText  text="VS" className="  text-8xl text-rose-950 items-start justify-start grid-flow-col"></AnimatedText>
-        <AnimatedText  text="ZOMBIE...!" className="  text-8xl text-rose-950"></AnimatedText>
+        <AnimatedText  text="ZOMBIES" className="  text-8xl text-rose-950"></AnimatedText>
             </div>
                  <div className=" col-span-6  bg-white w-full h-1/2 items-center justify-center flex  rounded-xl p-1 m-1 ">
             

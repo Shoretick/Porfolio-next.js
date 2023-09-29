@@ -123,7 +123,7 @@ const Projects= () => {
             <FeaturedProjects
                 title="Rat Vs Z"
                 img = {project4}
-                summary="Rat vs Z es un videoGame desarrollado en C# Unity con modelos en 3d realizados en blender. "
+                summary="Rat vs Zombies es un videoGame desarrollado en C# Unity con modelos en 3d realizados en blender. "
                 type="Proyecto destacado"
                 link="/projects/ratz"
                 github="https://github.com/Shoretick/RatVsZ"
