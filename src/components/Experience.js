@@ -62,19 +62,17 @@ const Experience = () =>{
                     />
                     <Details
                     position="Full Stack Developer" company="Freelance"
-                    companyLink="www.google.com.ar"
+                    companyLink="www.google.com"
                     time = "2022-Presente" address="Latam"
-                    work="Desarrollar landing Pages y aplicaciones online utilizando HTML, CSS, React, Node, Express ●
+                    work="Desarrollar landing Pages y aplicaciones online utilizando HTML, CSS, React, Node, Express 
                     Diseñar interfaces y elementos frontend, mantener y optimizar sitios web e interfaces.
-                    ● Incrementar en 20% el tráfico web a través de la mejora de la navegación del sitio web. "
+                    Mejorar la navegación de los sitios web."
                     />
                     <Details
                     position="QA /QC" company="Invap"
                     companyLink="www.google.com.ar"
                     time = "2012-2018" address="Buenos Aires, Argentina. "
-                    work="Worked on a team responsible for developing new features for Google's 
-                    search engine, including improving the accuracy and relevance of search results and 
-                    developing new tools for data analysis and visualization."
+                    work="Realizar pruebas de funcionamiento, Reportes, control y seguimiento de informes y registros.  "
                     />
                     
                 </ul>
